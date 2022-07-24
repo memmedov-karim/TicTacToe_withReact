@@ -1,0 +1,86 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    background-color: bisque;
+    
+    
+
+}
+
+
+.table .item {
+    
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    
+    flex-direction: row;
+    align-items: center;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+a span {
+    color: black;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+a span:hover{
+    opacity: unset;
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.players span {
+    color: red;
+}
+.winneris{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.players h2{
+    margin-right: 10px;
+}
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+input{
+    height: 25px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
